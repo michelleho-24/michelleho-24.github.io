@@ -1,0 +1,688 @@
+@charset "UTF-8";
+
+/* #E9EAEC, #B1EFF0, #E5F6FF, #C0BABA, #011638, #2F405C, #51788B
+*/ 
+/*Photo gallery: 
+#2b1901
+#f4af16
+#FADA95
+ */
+
+#head 
+{
+	background-color: #FADA95;
+    border-style: solid;
+    border-color: black;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+#headtitle {
+    font-size: 3vw;
+    font-family: cursive; 
+    text-align: center;
+    font-weight:bold; 
+} 
+
+.caption {
+    font-size: 14pt;
+    color: black;
+    text-align: center;
+    padding-right: 10%;
+    padding-left: 10%;
+    font-family: monospace;
+    font-weight:bold; 
+    display: block;
+   }
+.all 
+{
+	margin-top: 2%;
+    overflow: auto;
+    display: flex;
+}
+.left {
+    float: left;
+    width: 25%;
+    height: 300px;
+    background-color: #FADA95;
+    border-style: solid;
+    border-color: black;
+    margin-left: 10%;
+    overflow: hidden;
+    padding-top: 1%;
+    padding-right: 1%;
+    padding-left: 1%;
+    padding-bottom: 1%;
+    text-align: center; 
+    margin-bottom: 40px;
+    margin-top: 10px; 
+}
+.middle {
+    width: 25%;
+    height: 300px;
+    background-color: #FADA95;
+    border-style: solid;
+    border-color: black;
+    margin-right: 2.5%;
+    margin-left: 2.5%;
+    padding-top: 1%;
+    padding-right: 1%;
+    padding-left: 1%;
+    padding-bottom: 1%;
+    overflow: hidden;
+    margin-bottom: 40px;
+    margin-top: 10px;
+    text-align: center; 
+}
+.right {
+    float: right;
+    width: 25%;
+    height: 300px;
+    background-color: #FADA95;
+    border-color: black;
+    border-style: solid;
+    margin-right: 10%;
+    padding-top: 1%;
+    padding-right: 1%;
+    padding-left: 1%;
+    padding-bottom: 1%;
+    overflow: hidden;
+    margin-bottom: 40px;
+    margin-top: 10px;
+    text-align: center; 
+}
+.aboutPar 
+{
+	height: 400px; 
+	background-color: #E0F5FD;
+	font-size: 125%; 
+	padding: 2%;
+	margin: 0px;
+	text-align: left;
+	color: #182B4A;
+}
+
+.edu 
+{
+	height: 400px; 
+	background-color: #E0F5FD;
+	font-size: 110%; 
+	padding: 2%;
+	margin: 0px;
+	text-align: left;
+	color: #182B4A;
+}
+
+.edu2
+{
+	height: 400px; 
+	background-color: #ffffff;
+	font-size: 110%; 
+	padding: 2%;
+	margin: 0px;
+	text-align: left;
+	color: #51788B;
+}
+.edu3
+{
+	height: 500px; 
+	background-color: #ffffff;
+	font-size: 100%; 
+	padding: 2%;
+	margin: 0px;
+	text-align: left;
+	color: #51788B;
+}
+
+.edu4
+{
+	height: 200px; 
+	background-color: #ffffff;
+	font-size: 110%; 
+	padding: 2%;
+	margin: 0px;
+	text-align: center;
+	color: #51788B;
+}
+
+.edu5
+{
+	height: 575px; 
+	background-color: #E0F5FD;
+	font-size: 110%; 
+	padding: 2%;
+	margin: 0px;
+	text-align: left;
+	color: #182B4A;
+}
+
+.edu6
+{
+	height: 500px; 
+	background-color: #ffffff;
+	font-size: 100%; 
+	padding: 2%;
+	margin: 0px;
+	text-align: left;
+	color: #51788B;
+}
+
+.edu7
+{
+	height: 350px; 
+	background-color: #E0F5FD;
+	font-size: 100%; 
+	padding: 2%;
+	margin: 0px;
+	text-align: left;
+	color: #182B4A;
+}
+
+.edu8
+{
+	height: 450px; 
+	background-color: #E0F5FD;
+	font-size: 100%; 
+	padding: 2%;
+	margin: 0px;
+	text-align: left;
+	color: #182B4A;
+}
+
+.edu9
+{
+	height: 175px; 
+	background-color: #ffffff;
+	font-size: 110%; 
+	padding: 2%;
+	margin: 0px;
+	text-align: center;
+	color: #51788B;
+}
+
+.edu10
+{
+	height: 500px; 
+	background-color: #ffffff;
+	font-size: 110%; 
+	padding: 2%;
+	margin: 0px;
+	text-align: left;
+	color: #51788B;
+}
+.edu11
+{
+	height: 500px; 
+	background-color: #E0F5FD;
+	font-size: 110%; 
+	padding: 2%;
+	margin: 0px;
+	text-align: left;
+	color: #182B4A;
+}
+
+.edu12
+{
+	height: 350px; 
+	background-color: #ffffff;
+	font-size: 110%; 
+	padding: 2%;
+	margin: 0px;
+	text-align: left;
+	color: #51788B;
+}
+
+.edu13
+{
+	height: 100px; 
+	background-color: #ffffff;
+	font-size: 110%; 
+	padding: 2%;
+	margin: 0px;
+	text-align: center;
+	color: #51788B;
+}
+
+
+.foot1
+{
+	height:75px;
+	background-color: #E0F5FD;
+	font-size:18px; 
+	padding: 5% 5% 0% 5%; 
+	margin: -10px 0px 0px 0px;
+	text-align: center;
+	color: #182B4A;
+}
+.icon {
+	display: inline-block;
+    width: 27.5%;
+    vertical-align: top;
+    min-width: 200px;
+    margin: auto;
+    height: 250px; 
+	background-color: #E0F5FD;
+	font-size: 20px; 
+	padding: 3%;
+	margin: -50px -10px 0px 0px;
+	text-align: center;
+	color: #182B4A;
+}
+
+.intro {
+	
+	height:25px;
+	background-color: #E0F5FD;
+	font-size:36px; 
+	padding: 5% 5% 0% 5%; 
+	margin: -5px;;
+	text-align: center; 
+}
+
+.auto{
+	
+	height:50px;
+	background-color: #E0F5FD;
+	font-size:36px; 
+	padding: 2% 5% 2% 5%; 
+	margin: -5px;;
+	text-align: center; 
+}
+
+.auto2{
+	
+	height:50px;
+	background-color: #ffffff;
+	font-size:36px; 
+	padding: 2% 5% 2% 5%; 
+	margin: -5px;;
+	text-align: center; 
+	color: #51788B; 
+}
+
+
+.introPar {
+	height: 75px; 
+	background-color: #E0F5FD;
+	font-size: 20px; 
+	padding: 5%;
+	margin: 0px;
+	text-align: center;
+	color: #182B4A;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("img_block_island_water.JPG");
+
+    /* Set a specific height */
+    min-height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+	color: #182B4A; 
+	font-family: Verdana; 
+	padding: 10px;
+	margin: 100px 100px 50px;
+	text-align: center; 
+	font-size: 300%; 
+}
+
+#first {
+	
+  	padding: 0px;
+	margin: 0px;
+	overflow-y: scroll;
+	font-family: Verdana;
+	font-size: 18px;
+	background-color: #C8CECB;
+	background-image: url("images/block_island_water.JPG");
+	background-size: cover; 
+	background-repeat: no-repeat;
+	background-position: center;  
+	background-attachment: fixed; 
+	overflow-x: hidden;
+	
+}
+#second {
+	
+	
+  	padding: 0px;
+	margin: 0px;
+	overflow-y: scroll;
+	font-family: Verdana;
+	font-size: 18px;
+	background-color: #C8CECB;
+	background-image: url("images/Personal.JPG");
+	background-size: cover; 
+	background-repeat: no-repeat;
+	background-position: center;  
+	background-attachment: fixed; 
+	overflow-x: hidden;
+}
+
+#third {
+	
+	
+  padding: 0px;
+	margin: 0px;
+	overflow-y: scroll;
+	font-family: Verdana;
+	font-size: 18px;
+	background-color: #C8CECB;
+	background-image: url("images/surivorday.jpg");
+	background-size: cover; 
+	background-repeat: no-repeat;
+	background-position: center;  
+	background-attachment: fixed; 
+	overflow-x: hidden;
+}
+
+#fourth{
+	
+	
+  	padding: 0px;
+	margin: 0px;
+	overflow-y: scroll;
+	font-family: Verdana;
+	font-size: 18px;
+	background-color: #C8CECB;
+	background-image: url("images/pennsylvania.JPG");
+	background-size: cover; 
+	background-repeat: no-repeat;
+	background-position: center;  
+	background-attachment: fixed; 
+	overflow-x: hidden;
+}
+
+#fifth{
+	
+	
+  	padding: 0px;
+	margin: 0px;
+	overflow-y: scroll;
+	font-family: Verdana;
+	font-size: 18px;
+	background-color: #C8CECB;
+	background-image: url("images/computerquestgroup.JPG");
+	background-size: cover; 
+	background-repeat: no-repeat;
+	background-position: center;  
+	background-attachment: fixed; 
+	overflow-x: hidden;
+}
+
+#sixth{
+	
+	
+  	padding: 0px;
+	margin: 0px;
+	overflow-y: scroll;
+	font-family: Verdana;
+	font-size: 18px;
+	background-color: #C8CECB;
+	background-image: url("images/award.JPG");
+	background-size: cover; 
+	background-repeat: no-repeat;
+	background-position: center;  
+	background-attachment: fixed; 
+	overflow-x: hidden;
+}
+
+#seventh{
+	
+	
+  padding: 0px;
+	margin: 0px;
+	overflow-y: scroll;
+	font-family: Verdana;
+	font-size: 18px;
+	background-color: #C8CECB;
+	background-image: url("images/experimenting.JPG");
+	background-size: cover; 
+	background-repeat: no-repeat;
+	background-position: center;  
+	background-attachment: fixed; 
+	overflow-x: hidden;
+}
+
+#eighth{
+	
+	padding: 0px;
+	margin: 0px;
+	overflow-y: scroll;
+	font-family: Verdana;
+	font-size: 18px;
+	background-color: #C8CECB;
+	background-image: url("images/welcome.jpg");
+	background-size: cover; 
+	background-repeat: no-repeat;
+	background-position: center;  
+	background-attachment: fixed; 
+	overflow-x: hidden;
+}
+#ninth{
+	
+	
+  	padding: 0px;
+	margin: 0px;
+	overflow-y: scroll;
+	font-family: Verdana;
+	font-size: 18px;
+	background-color: #C8CECB;
+	background-image: url("images/LineArt.JPG");
+	background-size: cover; 
+	background-repeat: no-repeat;
+	background-position: center;  
+	background-attachment: fixed; 
+	overflow-x: hidden;
+}
+#tenth{
+	
+	
+  	padding: 0px;
+	margin: 0px;
+	overflow-y: scroll;
+	font-family: Verdana;
+	font-size: 18px;
+	background-color: #C8CECB;
+	background-image: url("images/Math.jpg");
+	/*Image source: http://www.ceska-justice.cz/2017/07/us-se-musi-zabyvat-povinnou-maturitou-matematiky-podle-poslancu-poskodi-studenty/ */ 
+	background-size: cover; 
+	background-repeat: no-repeat;
+	background-position: center;  
+	background-attachment: fixed; 
+	overflow-x: hidden;
+}
+#eleventh{
+	
+	
+  padding: 0px;
+	margin: 0px;
+	overflow-y: scroll;
+	font-family: Verdana;
+	font-size: 18px;
+	background-color: #C8CECB;
+	background-image: url("images/hum.jpg");
+	/*image source: https://greekcitytimes.com/2018/05/15/why-ancient-greek-philosophers-are-the-greatest-thinkers-to-have-graced-this-earth/ */ 
+	background-size: cover; 
+	background-repeat: no-repeat;
+	background-position: center;  
+	background-attachment: fixed; 
+	overflow-x: hidden;
+}
+
+#twelfth{
+	
+	
+  	padding: 0px;
+	margin: 0px;
+	overflow-y: scroll;
+	font-family: Verdana;
+	font-size: 18px;
+	background-color: #C8CECB;
+	background-image: url("images/newtonplanets.jpg");
+	/*image source: http://shirtigo.co/planetary-cradle/ */ 
+	background-size: cover; 
+	background-repeat: no-repeat;
+	background-position: center;  
+	background-attachment: fixed; 
+	overflow-x: hidden;
+}
+
+#thirteenth{
+	
+	padding: 0px;
+	margin: 0px;
+	overflow-y: scroll;
+	font-family: Verdana;
+	font-size: 18px;
+	background-color: #C8CECB;
+	background-image: url("images/stw.jpg");
+	/*Image source: https://www.qmul.ac.uk/undergraduate/coursefinder/courses/2019/international-science-and-engineering-foundation-programme/*/ 
+	background-size: cover; 
+	background-repeat: no-repeat;
+	background-position: center;  
+	background-attachment: fixed; 
+	overflow-x: hidden;
+}
+
+#fourteenth{
+	
+	
+  	padding: 0px;
+	margin: 0px;
+	overflow-y: scroll;
+	font-family: Verdana;
+	font-size: 18px;
+	background-color: #C8CECB;
+	background-image: url("images/sea.jpg");
+	/*Image source: https://www.youtube.com/watch?v=SpnJVwVVNO0*/ 
+	background-size: cover; 
+	background-repeat: no-repeat;
+	background-position: center;  
+	background-attachment: fixed; 
+	overflow-x: hidden;
+}
+#fifteenth{
+	
+	
+padding: 0px;
+	margin: 0px;
+	overflow-y: scroll;
+	font-family: Verdana;
+	font-size: 18px;
+	background-color: #C8CECB;
+	background-image: url("images/disparu.PNG");
+	background-size: cover; 
+	background-repeat: no-repeat;
+	background-position: center;  
+	background-attachment: fixed; 
+	overflow-x: hidden;
+}
+
+#sixteenth {
+	background-image: url(images/fairylights.jpg);
+	/*Image source: https://www.shutterstock.com/de/video/clip-13027757-abstract-background-yellow-bokeh-lights-would-suit */
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; 
+    display: block;
+    margin: 0px; 
+    overflow-y: scroll;
+    overflow-x: hidden;
+	
+}
+body{
+	padding: 0;
+	margin: 0;
+	overflow-y: scroll;
+	font-family: Arial;
+	font-size: 18px;
+	background-color: #F4F4F9;
+}
+
+#nav{
+	background-color: #011638;
+	position: fixed;
+	width:100%;
+	top: 0;
+	padding: 0; 
+	margin: 0; 
+}
+#nav_wrapper{
+	width: 960px;
+	margin: 0 auto;
+	text-align: left;
+	
+	
+}
+
+#nav li {
+	color: #ccc;
+	padding: 0;
+	margin: 0;
+	font-family: Arial;
+	font-size: 18px;
+	
+}
+
+
+#nav ul{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	position: relative;
+}
+
+#nav ul li {
+	display: inline-block;
+	
+}
+
+#nav ul li:hover{
+	background-color: #2F405C;
+}
+    
+#nav ul li a,visited{
+	color:#ccc;
+	display: block;
+	padding: 15px;
+	text-decoration: none;
+}    
+#nav ul li a:hover {
+	color: #ccc;
+	text-decoration: none;
+}
+#nav ul li:hover ul{
+		display: block;
+}
+#nav ul ul{
+	display: none;
+	position: absolute;
+	background-color: #2F405C;
+	border: 5px solid #011638;
+	border-top: 0;
+	margin-left:-5px;
+	
+}
+#nav ul ul li{
+	display: block;
+}
+#nav ul ul li a,visited {
+	color:#ccc;
+}
+
+#nav ul ul li a:hover {
+	color:#E5F6FF;
+}
