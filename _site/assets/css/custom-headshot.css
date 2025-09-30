@@ -1,0 +1,6 @@
+.author__avatar img {
+  border-radius: 0 !important;
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+}
